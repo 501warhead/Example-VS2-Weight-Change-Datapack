@@ -6,9 +6,15 @@ Just making this repo to showcase how you, a mod pack author, can make some data
 
 The root of this is `datapack`, essentially that folder is a functioning 1.20.1 datapack which can be zipped up (and is zipped up as `vs2weightchange.zip`). The base of the folder needs a `pack.mcmeta`, and the `pack_format` in that pack needs to be roughly equivalent to what version minecraft you're playing on.
 
-(Check the pack format here)[https://minecraft.wiki/w/Data_pack#Pack_format]
+[Check the pack format here](https://minecraft.wiki/w/Data_pack#Pack_format)
 
 For 1.20.1 this is `15`
+
+## What to change
+
+Go to `datapack/data/valkyrienskies/vs_mass` and edit `datapack_mass_changes.json`. Add as many entries as you like. The mass seems to be multiplied by 10, so 10 = 100, 20 = 200, 200 = 2000 etc.
+
+Once you're done, zip up the `datapack` folder, and it's now a `datapack.zip`. Check the `datapack.zip` included in this repo for an example of the file structure
 
 ## Where to put it
 

@@ -1,7 +1,14 @@
 [
     {
-        "block": "farmersdelight:stove",
-        "mass": 69.0,
-        "friction": 0.5
+        "block": "copycats:copycat_block",
+        "mass": 1.0
+    },
+    {
+        "block": "copycats:copycat_slab",
+        "mass": 1.0
+    },
+    {
+        "block": "example_mod_id:example_block",
+        "mass": 6969.0
     }
 ]
